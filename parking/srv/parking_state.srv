@@ -1,0 +1,5 @@
+std_msgs/Int64 parking_id
+std_msgs/Int64 state_parking
+---
+std_msgs/Bool res_srvr
+
