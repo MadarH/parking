@@ -1,12 +1,12 @@
 # Service Parking
 Ce projet Git est une service pour se connecter avec le systeme d'access et d'avoir une communication en ce qui concerne la gestion des parkings du smart city
 
-#Execution
+- Execution
 Note: A chaque etape, il faut etre dans le catkin_ws et faire sourcer le setup.
 ```bash
 source devel/setup.bash
 ```
-##Etapes:
+- Etapes:
 1) Ouvrir le premier terminal et entrez la commande:
 ```bash
  roscore
@@ -29,6 +29,11 @@ On obtiendra:
 state_parking:
   data: 0" 
 ```
+
+A noter: 
+[0:free, 
+1:occupied,
+2:reserved] 
 C'est sur cette partie-la qu'on pourra modifier l'etat des parkings.
 
 4)Enfin sur la quatrieme terminal, entrez la commande: 
