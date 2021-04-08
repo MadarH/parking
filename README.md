@@ -30,10 +30,8 @@ state_parking:
   data: 0" 
 ```
 
-A noter: 
-[0:free, 
-1:occupied,
-2:reserved] 
+*- A noter: (0:free, 1:occupied, 2:reserved)
+
 C'est sur cette partie-la qu'on pourra modifier l'etat des parkings.
 
 4)Enfin sur la quatrieme terminal, entrez la commande: 
